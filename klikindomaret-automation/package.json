@@ -1,0 +1,16 @@
+{
+  "name": "klikindomaret-automation",
+  "version": "1.0.0",
+  "description": "Web automation Klik Indomaret: tambah produk Madu ke keranjang (tanpa login) dengan Playwright TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
